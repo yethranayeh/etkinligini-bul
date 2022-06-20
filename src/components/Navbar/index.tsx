@@ -2,6 +2,7 @@
 
 import styles from "./Navbar.module.scss";
 import { Link } from "react-router-dom";
+import { Search } from "components/Search";
 
 function Navbar() {
 	return (
@@ -10,6 +11,7 @@ function Navbar() {
 				<h1 className={styles.title}>Etkinliğini Bul</h1>
 			</Link>
 			<section className={styles.links}>
+				<Search />
 				<Link className={styles.link} to='/konser'>
 					Konser
 				</Link>
