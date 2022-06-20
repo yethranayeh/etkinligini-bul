@@ -1,0 +1,40 @@
+/** @format */
+@import "../styles/variables.scss";
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: $padding-md;
+	background-color: $primary;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.title {
+	cursor: pointer;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: $secondary;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: $padding-sm;
+}
+
+.link {
+	display: inline-block;
+	padding: $padding-md $padding-lg;
+	border-radius: $border-radius;
+	text-decoration: none;
+	color: $on-secondary;
+	background-color: $secondary;
+	transition: color 0.2s ease-in-out;
+
+	&:hover {
+		background-color: $on-secondary;
+		color: $secondary;
+	}
+}

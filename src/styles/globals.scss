@@ -1,0 +1,14 @@
+/** @format */
+@import "variables";
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: $background;
+	height: 100%;
+}
