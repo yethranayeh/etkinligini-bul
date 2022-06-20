@@ -2,7 +2,7 @@
 import "styles/reset.css";
 
 function App() {
-	return <div>Uygulama</div>;
+	return <div>Ana Sayfa</div>;
 }
 
 export default App;
