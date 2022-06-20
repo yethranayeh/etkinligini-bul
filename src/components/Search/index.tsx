@@ -1,7 +1,7 @@
 /** @format */
 
 import type { AutocompleteItem } from "@mantine/core";
-import type { Event as EventType } from "types/event";
+import type { EventType } from "types/EventType";
 import styles from "./Search.module.scss";
 import { forwardRef, useState } from "react";
 import { useNavigate } from "react-router-dom";

@@ -1,0 +1,23 @@
+/** @format */
+
+@import "../../styles/variables.scss";
+
+.imageContainer {
+	position: relative;
+}
+
+.badge {
+	position: absolute;
+	bottom: $spacing-md;
+	right: $spacing-md;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.description {
+	max-height: 80px;
+	overflow-y: auto;
+	line-height: 1.3;
+}

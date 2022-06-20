@@ -1,6 +1,6 @@
 /** @format */
 
-export type Event = {
+export type EventType = {
 	_id: string;
 	picture: string;
 	date: string;
