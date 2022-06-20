@@ -11,9 +11,11 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 	<React.StrictMode>
 		<BrowserRouter>
 			<Navbar />
-			<Routes>
-				<Route path='/' element={<App />} />
-			</Routes>
+			<main className='app-content'>
+				<Routes>
+					<Route path='/' element={<App />} />
+				</Routes>
+			</main>
 		</BrowserRouter>
 	</React.StrictMode>
 );

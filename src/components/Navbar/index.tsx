@@ -3,12 +3,15 @@
 import styles from "./Navbar.module.scss";
 import { Link } from "react-router-dom";
 import { Search } from "components/Search";
+import { Title } from "@mantine/core";
 
 function Navbar() {
 	return (
 		<nav className={styles.container}>
 			<Link to='/'>
-				<h1 className={styles.title}>Etkinliğini Bul</h1>
+				<Title order={1} className={styles.title}>
+					Etkinliğini Bul
+				</Title>
 			</Link>
 			<section className={styles.links}>
 				<Search />

@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: $padding-md;
+	padding: $spacing-md;
 	background-color: $primary;
 	border-bottom: 1px solid #e6e6e6;
 }
@@ -21,12 +21,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	gap: $padding-sm;
+	gap: $spacing-sm;
 }
 
 .link {
 	display: inline-block;
-	padding: $padding-md $padding-lg;
+	padding: $spacing-md $spacing-lg;
 	border-radius: $border-radius;
 	text-decoration: none;
 	color: $on-secondary;
