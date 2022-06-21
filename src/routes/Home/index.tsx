@@ -1,6 +1,7 @@
 /** @format */
 import type { EventType } from "types/EventType";
 import "styles/reset.css";
+import { useEffect } from "react";
 import { Grid, Tabs } from "@mantine/core";
 import EventCard from "components/EventCard";
 import data from "api/data.json";
@@ -8,6 +9,11 @@ import data from "api/data.json";
 function App() {
 	const upcomingEvents = data.filter((event) => new Date(event.date) > new Date());
 	const pastEvents = data.filter((event) => new Date(event.date) < new Date());
+
+	useEffect(() => {
+		document.title = "Etkinliğini Bul";
+	}, []);
+
 	return (
 		<>
 			<Tabs>

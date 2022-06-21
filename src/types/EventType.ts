@@ -2,7 +2,7 @@
 
 export type EventType = {
 	_id: string;
-	picture: string;
+	pictures: string[];
 	date: string;
 	city: string;
 	location: string;
@@ -11,4 +11,5 @@ export type EventType = {
 	name: string;
 	description: string;
 	category: string;
+	free: boolean;
 };

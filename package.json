@@ -10,6 +10,7 @@
   "dependencies": {
     "@mantine/core": "^4.2.10",
     "@mantine/hooks": "^4.2.10",
+    "@pbe/react-yandex-maps": "^1.1.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.4.0",

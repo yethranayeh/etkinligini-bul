@@ -10,12 +10,12 @@ type EventCardProps = {
 };
 
 function EventCard({ event }: EventCardProps) {
-	const eventLink = `/event/${event._id}`;
+	const eventLink = `/etkinlik/${event._id}`;
 	const datePassed = new Date(event.date) < new Date();
 	return (
 		<Card component='article' shadow='sm' p='sm'>
 			<Card.Section className={styles.imageContainer}>
-				<Image withPlaceholder src={event.picture} height={160} alt={event.name + "resmi"} />
+				<Image withPlaceholder src={event.pictures[0]} height={160} alt={event.name + "resmi"} />
 				<Badge color={datePassed ? "red" : "green"} variant='filled' className={styles.badge}>
 					{new Date(event.date).toLocaleDateString()}
 				</Badge>

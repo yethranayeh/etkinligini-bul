@@ -1,0 +1,38 @@
+/** @format */
+@import "../../../styles/variables.scss";
+
+$section-size: 80px;
+
+.section {
+	width: $section-size;
+	height: $section-size;
+	margin: auto;
+	display: grid;
+	place-items: center;
+}
+
+.section.stage {
+	background-color: $primary;
+	color: $on-primary;
+	border-radius: $border-radius;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.section.guest {
+	cursor: pointer;
+	background-color: rgba($primary, 0.6);
+	color: $on-primary;
+	transition: color 250ms ease-out, background-color 250ms ease-out;
+
+	&:hover {
+		background-color: rgba($secondary, 0.7);
+		color: $on-secondary;
+		border: 2px solid rgba($primary, 0.5);
+	}
+}
+
+.section.guest.selected {
+	background-color: $secondary;
+	border: 2px solid $background;
+}

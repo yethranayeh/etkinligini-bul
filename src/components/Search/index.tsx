@@ -19,7 +19,16 @@ const AutoCompleteItem = forwardRef<HTMLDivElement, ItemProps>(
 	({ description, value, image, ...others }: ItemProps, ref) => (
 		<div ref={ref} {...others}>
 			<Group noWrap>
-				<Image src={image} radius={5} alt={value + " resmi"} fit='contain' height={56} />
+				<Image
+					src={image}
+					radius={5}
+					alt={"etkinlik resmi"}
+					fit='contain'
+					height={60}
+					width={60}
+					withPlaceholder
+					placeholder={""}
+				/>
 
 				<div>
 					<Text size='sm'>{value}</Text>
@@ -40,7 +49,6 @@ let controller: null | AbortController = null;
 export function Search() {
 	const [value, setValue] = useState("");
 	const [results, setResults] = useState<any>([]);
-	const [loading, setLoading] = useState(false);
 
 	let navigate = useNavigate();
 
@@ -54,22 +62,6 @@ export function Search() {
 
 		if (value) {
 			setResults(data);
-
-			try {
-				console.log("Search result:", data);
-
-				if (data.length === 0) {
-					setResults([]);
-				} else {
-				}
-			} catch (error: any) {
-				if (error.code !== "ERR_CANCELED") {
-					console.error(error);
-				}
-			} finally {
-				controller = null;
-				setLoading(false);
-			}
 		} else {
 			setResults([]);
 		}
@@ -88,7 +80,7 @@ export function Search() {
 			data={results.map((event: EventType) => ({
 				value: event.name,
 				description: event.description.substring(0, 70) + "...",
-				image: event.picture,
+				image: event.pictures[0],
 				key: event._id,
 				color: "teal"
 			}))}
@@ -98,10 +90,9 @@ export function Search() {
 			}
 			onChange={handleChange}
 			onItemSubmit={(item: AutocompleteItem) => {
-				const eventName = item.value;
-				// replace spaces with underscores
-				const eventUrl = eventName.replace(/\s/g, "_");
-				navigate(`/etkinlik/${eventUrl}`);
+				const eventUrl = `/etkinlik/${item.key}`;
+				setValue("");
+				navigate(eventUrl);
 			}}
 			aria-label='Arama alanı'
 		/>

@@ -1,0 +1,22 @@
+/** @format */
+@import "../../../styles/variables.scss";
+
+.map {
+	width: 1920px;
+	height: auto;
+	aspect-ratio: 16/9;
+
+	margin: 0 auto;
+
+	@media (max-width: $breakpoint-xxl) {
+		width: 1280px;
+	}
+
+	@media screen and (max-width: $breakpoint-xl) {
+		width: 640px;
+	}
+
+	@media screen and (max-width: $breakpoint-sm) {
+		width: 426px;
+	}
+}
