@@ -2,6 +2,17 @@
 
 @import "../../styles/variables.scss";
 
+.card,
+.stack {
+	height: 100%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .imageContainer {
 	position: relative;
 }

@@ -13,7 +13,7 @@ function EventCard({ event }: EventCardProps) {
 	const eventLink = `/etkinlik/${event._id}`;
 	const datePassed = new Date(event.date) < new Date();
 	return (
-		<Card component='article' shadow='sm' p='sm'>
+		<Card component='article' shadow='sm' p='sm' className={styles.card}>
 			<Card.Section className={styles.imageContainer}>
 				<Image withPlaceholder src={event.pictures[0]} height={160} alt={event.name + "resmi"} />
 				<Badge color={datePassed ? "red" : "green"} variant='filled' className={styles.badge}>
@@ -21,7 +21,7 @@ function EventCard({ event }: EventCardProps) {
 				</Badge>
 			</Card.Section>
 
-			<Stack spacing='xs'>
+			<Stack spacing='xs' justify='space-between' className={styles.stack}>
 				<Text
 					className={styles.title}
 					component={Link}
