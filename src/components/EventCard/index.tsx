@@ -53,7 +53,12 @@ function EventCard({ event }: EventCardProps) {
 							{event.free ? "Ücretsiz" : "Bilet Al"}
 						</Button>
 					)}
-					<Button component={HashLink} to={`${eventLink}`} variant='outline' color='dark' fullWidth={datePassed}>
+					<Button
+						component={HashLink}
+						to={`${eventLink}#detaylar`}
+						variant='outline'
+						color='dark'
+						fullWidth={datePassed}>
 						Detaylar
 					</Button>
 				</Group>
