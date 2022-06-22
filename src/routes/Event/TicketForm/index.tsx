@@ -15,7 +15,7 @@ function TicketForm({ event }: { event: EventType }) {
 	const prevStep = () => setActive((current) => (current > 0 ? current - 1 : current));
 
 	return (
-		<Card shadow='sm' p='sm'>
+		<Card shadow='sm' p='sm' id='bilet'>
 			<Stepper active={active} onStepClick={setActive} breakpoint='sm'>
 				<Stepper.Step label='Bölge' description='Etkinlik bölgeleri'>
 					<AreaSelection event={event} />
