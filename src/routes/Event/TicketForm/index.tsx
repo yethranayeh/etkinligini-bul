@@ -4,7 +4,6 @@ import type { EventType } from "types/EventType";
 import { useState } from "react";
 import { Stack, TextInput, Button, Stepper, Group, Card } from "@mantine/core";
 import AreaSelection from "./AreaSelection";
-import styles from "./TicketForm.module.scss";
 import { BsCheck2, MdNavigateNext } from "icons/index";
 import Payment from "./Payment";
 
@@ -15,7 +14,7 @@ function TicketForm({ event }: { event: EventType }) {
 	const prevStep = () => setActive((current) => (current > 0 ? current - 1 : current));
 
 	return (
-		<Card shadow='sm' p='sm' id='bilet'>
+		<>
 			<Stepper active={active} onStepClick={setActive} breakpoint='sm'>
 				<Stepper.Step label='Bölge' description='Etkinlik bölgeleri'>
 					<AreaSelection event={event} />
@@ -68,7 +67,7 @@ function TicketForm({ event }: { event: EventType }) {
 					Devam
 				</Button>
 			</Group>
-		</Card>
+		</>
 	);
 }
 
