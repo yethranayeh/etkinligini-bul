@@ -11,6 +11,7 @@ import {
 	BsLink45Deg
 } from "react-icons/bs";
 import { FiCopy, FiShare } from "react-icons/fi";
+import { ImTicket } from "react-icons/im";
 import { MdNavigateNext } from "react-icons/md";
 import { RiErrorWarningLine, RiMastercardFill, RiVisaLine } from "react-icons/ri";
 
@@ -27,6 +28,7 @@ export {
 	BsX, // X - Close
 	FiCopy, // Copy
 	FiShare, // Share
+	ImTicket, // Ticket
 	MdNavigateNext, // Next
 	RiErrorWarningLine, // Warning
 	RiMastercardFill, // Mastercard
