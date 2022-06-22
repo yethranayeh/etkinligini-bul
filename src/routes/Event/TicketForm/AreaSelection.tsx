@@ -1,7 +1,7 @@
 /** @format */
 
 import type { EventType } from "types/EventType";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import {
 	Grid,
 	Stack,
@@ -11,12 +11,13 @@ import {
 	Group,
 	ActionIcon,
 	Text,
-	Card
+	Card,
+	Badge
 } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import styles from "./AreaSelection.module.scss";
 
-function AreaSelection({ event }: { event: EventType }) {
+function AreaSelection({ event, dispatch, action }: { event: EventType; dispatch: any; action: any }) {
 	const [section, setSection] = useState("");
 	const sections = ["A0", "A1", "A2", "A3", "B0", "B1", "B2", "B3", "C0", "C1", "C2", "C3", "D0", "D1", "D2", "D3"];
 
@@ -55,7 +56,17 @@ function AreaSelection({ event }: { event: EventType }) {
 								key={sectionName}
 								className={[styles.section, styles.guest, sectionName === section ? styles.selected : ""].join(" ")}
 								span={3}
-								onClick={() => setSection(sectionName)}>
+								onClick={() => {
+									setSection(sectionName);
+									dispatch({
+										type: action,
+										data: {
+											section: sectionName,
+											ticketAmount,
+											ticketPrice: Math.round(basePrice * ticketAmount * multiplier())
+										}
+									});
+								}}>
 								{sectionName}
 							</Grid.Col>
 						))}
@@ -63,7 +74,12 @@ function AreaSelection({ event }: { event: EventType }) {
 				</Card>
 			</Grid.Col>
 			<Grid.Col span={columnSpan}>
-				<Stack spacing='xs'>
+				<Stack
+					spacing='xs'
+					justify='space-between'
+					style={{
+						height: "100%"
+					}}>
 					<NativeSelect
 						data={sections}
 						placeholder='Bölge seç'
@@ -73,9 +89,9 @@ function AreaSelection({ event }: { event: EventType }) {
 						required
 					/>
 					{!event.free && (
-						<>
+						<Stack spacing='xs'>
 							<Group>
-								<Text>Bilet:</Text>
+								<Text color='gray'>Bilet:</Text>
 								<Group spacing={5}>
 									<ActionIcon size={36} variant='default' onClick={() => handlers.current!.decrement()}>
 										–
@@ -84,7 +100,17 @@ function AreaSelection({ event }: { event: EventType }) {
 									<NumberInput
 										hideControls
 										value={ticketAmount}
-										onChange={(val) => setTicketAmount(val!)}
+										onChange={(val) => {
+											setTicketAmount(val!);
+											dispatch({
+												type: action,
+												data: {
+													section,
+													ticketAmount: val,
+													ticketPrice: Math.round(basePrice * ticketAmount * multiplier())
+												}
+											});
+										}}
 										handlersRef={handlers}
 										max={4}
 										min={0}
@@ -97,8 +123,13 @@ function AreaSelection({ event }: { event: EventType }) {
 									</ActionIcon>
 								</Group>
 							</Group>
-							<Text>Toplam Ücret: {`${Math.round(basePrice * ticketAmount * multiplier())}₺`}</Text>
-						</>
+							<Text color='gray'>
+								Toplam Ücret:{" "}
+								<Badge size='lg' variant='outline' color={ticketAmount ? "blue" : "gray1"} radius='sm'>{`${Math.round(
+									basePrice * ticketAmount * multiplier()
+								)}₺`}</Badge>
+							</Text>
+						</Stack>
 					)}
 				</Stack>
 			</Grid.Col>

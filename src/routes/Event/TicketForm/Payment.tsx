@@ -1,6 +1,6 @@
 /** @format */
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Stack, NumberInput, TextInput, Group } from "@mantine/core";
 import { RiMastercardFill, RiVisaLine, BsCreditCard2BackFill } from "icons/index";
 
@@ -27,9 +27,14 @@ function CreditCardIcon({ number }: { number: string }) {
 	return creditCardIssuer(number);
 }
 
-function Payment() {
+function Payment({ dispatch, action }: { dispatch: any; action: any }) {
 	const [cardNumber, setCardNumber] = useState<string>("");
 	const now = new Date();
+
+	const nameRef = useRef<HTMLInputElement>(null);
+	const cardRef = useRef<HTMLInputElement>(null);
+	const expiryRef = useRef<HTMLInputElement>(null);
+	const cvvRef = useRef<HTMLInputElement>(null);
 
 	return (
 		<form
@@ -37,16 +42,28 @@ function Payment() {
 				display: "flex",
 				flexDirection: "column",
 				alignItems: "center"
-			}}>
+			}}
+			onChange={(e) =>
+				dispatch({
+					type: action,
+					data: {
+						cardName: nameRef.current!.value,
+						cardNumber: cardRef.current!.value,
+						cardExpiry: expiryRef.current!.value,
+						cvv: cvvRef.current!.value
+					}
+				})
+			}>
 			<Stack
 				spacing='xs'
 				align='stretch'
 				style={{
 					minWidth: 300
 				}}>
-				<TextInput required label='İsim' placeholder='Kart üzerindeki isim' />
+				<TextInput required ref={nameRef} label='İsim' placeholder='Kart üzerindeki isim' />
 				<TextInput
 					required
+					ref={cardRef}
 					value={cardNumber}
 					onChange={(e) => setCardNumber(e.target.value)}
 					label='Kart Numarası'
@@ -58,6 +75,7 @@ function Payment() {
 				<Group position='apart'>
 					<TextInput
 						required
+						ref={expiryRef}
 						label='Son Kullanma Tarihi'
 						placeholder={`${now.getMonth() < 10 ? `0${now.getMonth()}` : now.getMonth()} / ${String(
 							now.getFullYear()
@@ -66,6 +84,7 @@ function Payment() {
 					<NumberInput
 						hideControls
 						required
+						ref={cvvRef}
 						label='CVV (Güvenlik Kodu)'
 						placeholder='123'
 						maxLength={3}
