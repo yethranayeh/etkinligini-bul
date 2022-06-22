@@ -1,16 +1,5 @@
 /** @format */
 
 .searchArea {
-	width: 400px;
-	@media screen and (max-width: 992px) {
-		width: 350px;
-	}
-
-	@media screen and (max-width: 768px) {
-		width: 300px;
-	}
-
-	@media screen and (max-width: 576px) {
-		width: 250px;
-	}
+	flex: 1 1 auto;
 }

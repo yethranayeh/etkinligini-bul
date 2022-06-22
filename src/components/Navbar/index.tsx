@@ -3,9 +3,10 @@
 import styles from "./Navbar.module.scss";
 import { Link } from "react-router-dom";
 import { Search } from "components/Search";
-import { Title } from "@mantine/core";
+import { Title, Button } from "@mantine/core";
 
 function Navbar() {
+	const links = ["festival", "konser", "tiyatro"];
 	return (
 		<nav className={styles.container}>
 			<Link to='/'>
@@ -13,17 +14,16 @@ function Navbar() {
 					Etkinliğini Bul
 				</Title>
 			</Link>
+			<Search />
 			<section className={styles.links}>
-				<Search />
-				<Link className={styles.link} to='/konser'>
-					Konser
-				</Link>
-				<Link className={styles.link} to='/tiyatro'>
-					Tiyatro
-				</Link>
-				<Link className={styles.link} to='/festival'>
-					Festival
-				</Link>
+				{links.map((link) => (
+					<Button key={link} component={Link} to={`/etkinlikler?kategori=${link}`} className={styles.link}>
+						{link[0].toUpperCase() + link.slice(1)}
+					</Button>
+				))}
+				<Button component={Link} to={`/etkinlikler`} className={styles.link}>
+					Etkinlikler
+				</Button>
 			</section>
 		</nav>
 	);

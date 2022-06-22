@@ -3,10 +3,10 @@
 import type { AutocompleteItem } from "@mantine/core";
 import type { EventType } from "types/EventType";
 import styles from "./Search.module.scss";
-import { forwardRef, useState } from "react";
+import { forwardRef, useState, useContext } from "react";
+import { EventDataContext } from "context/EventDataContext";
 import { useNavigate } from "react-router-dom";
 import { Group, Image, Text, MantineColor, SelectItemProps, Autocomplete } from "@mantine/core";
-import data from "api/data.json";
 import { BiSearchAlt2 } from "icons/index";
 
 interface ItemProps extends SelectItemProps {
@@ -43,12 +43,11 @@ const AutoCompleteItem = forwardRef<HTMLDivElement, ItemProps>(
 
 AutoCompleteItem.displayName = "AutoCompleteItem";
 
-// For Axios AbortController
-let controller: null | AbortController = null;
-
 export function Search() {
 	const [value, setValue] = useState("");
 	const [results, setResults] = useState<any>([]);
+
+	const data = useContext(EventDataContext);
 
 	let navigate = useNavigate();
 
