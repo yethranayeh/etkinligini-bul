@@ -22,7 +22,8 @@
 			"styles/*": ["styles/*"],
 			"icons/*": ["icons/*"],
 			"api/*": ["api/*"],
-			"types/*": ["types/*"]
+			"types/*": ["types/*"],
+			"context/*": ["context/*"]
 		}
 	},
 	"include": ["src"],
