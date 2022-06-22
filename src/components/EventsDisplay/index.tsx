@@ -3,6 +3,7 @@
 import type { EventType } from "types/EventType";
 import { useMediaQuery } from "@mantine/hooks";
 import { Grid, Tabs } from "@mantine/core";
+import { ErrorAlert } from "components/Alerts";
 import EventCard from "components/EventCard";
 import sortByDate from "utils/sortByDate";
 
@@ -34,25 +35,33 @@ function EventsDisplay({ events, smaller }: { events: EventType[]; smaller?: boo
 		<Tabs>
 			<Tabs.Tab label='Mevcut Etkinlikler' color='green'>
 				<Grid align='stretch' gutter={isMobile ? "xs" : isTablet ? "sm" : "md"}>
-					{upcomingEvents.map((event) => (
-						<Grid.Col span={colSpan} key={event._id}>
-							<EventCard event={event} />
-						</Grid.Col>
-					))}
+					{upcomingEvents.length > 0 ? (
+						upcomingEvents.map((event) => (
+							<Grid.Col span={colSpan} key={event._id}>
+								<EventCard event={event} />
+							</Grid.Col>
+						))
+					) : (
+						<ErrorAlert text='Mevcut etkinlik yok.' />
+					)}
 				</Grid>
 			</Tabs.Tab>
 			<Tabs.Tab label='Geçmiş Etkinlikler' color='red'>
 				<Grid align='stretch' gutter={isMobile ? "xs" : isTablet ? "sm" : "md"}>
-					{pastEvents.map((event) => (
-						<Grid.Col
-							span={colSpan}
-							key={event._id}
-							style={{
-								height: "100%"
-							}}>
-							<EventCard event={event} />
-						</Grid.Col>
-					))}
+					{pastEvents.length > 0 ? (
+						pastEvents.map((event) => (
+							<Grid.Col
+								span={colSpan}
+								key={event._id}
+								style={{
+									height: "100%"
+								}}>
+								<EventCard event={event} />
+							</Grid.Col>
+						))
+					) : (
+						<ErrorAlert text='Geçmiş etkinlik yok.' />
+					)}
 				</Grid>
 			</Tabs.Tab>
 		</Tabs>

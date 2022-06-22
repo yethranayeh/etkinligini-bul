@@ -2,6 +2,7 @@
 import { useContext, useEffect, useState } from "react";
 import { EventDataContext } from "context/EventDataContext";
 import { Card, CheckboxGroup, Checkbox, Divider, Stack, Title, Text, ScrollArea, Button } from "@mantine/core";
+import DateRange from "components/DateRange";
 import getUniqueKeyValues from "utils/getUniqueKeyValues";
 import styles from "./SideBar.module.scss";
 
@@ -13,7 +14,14 @@ const FilterTitle = ({ title }: { title: string }) => (
 	</Title>
 );
 
-function SideBar({ searchParams, setSearchParams }: { searchParams: URLSearchParams; setSearchParams: Function }) {
+interface SideBarProps {
+	searchParams: URLSearchParams;
+	setSearchParams: Function;
+	dateRange: [Date | null, Date | null];
+	setDateRange: (value: [Date | null, Date | null]) => void;
+}
+
+function SideBar({ searchParams, setSearchParams, dateRange, setDateRange }: SideBarProps) {
 	const data = useContext(EventDataContext);
 
 	const categories = getUniqueKeyValues("category", data).sort();
@@ -39,10 +47,7 @@ function SideBar({ searchParams, setSearchParams }: { searchParams: URLSearchPar
 	}, [searchParams]);
 
 	function applyFilter(key: string, value: string[]) {
-		console.table(currentSearchParams);
-
 		const newSearchParams = { ...currentSearchParams, [key]: value };
-		console.table(newSearchParams);
 		return newSearchParams;
 	}
 
@@ -62,11 +67,11 @@ function SideBar({ searchParams, setSearchParams }: { searchParams: URLSearchPar
 					color='green'
 					onChange={(value) => {
 						setCategoryValue(value);
-						console.log("Category value:", value);
 						setSearchParams(applyFilter("kategori", value));
 					}}>
 					{categories.map((category) => (
 						<Checkbox
+							key={category}
 							label={`${category[0].toUpperCase()}${category.slice(1)}`}
 							value={category}
 							wrapperProps={{
@@ -96,6 +101,7 @@ function SideBar({ searchParams, setSearchParams }: { searchParams: URLSearchPar
 					}}>
 					{cities.map((city) => (
 						<Checkbox
+							key={city}
 							label={city}
 							value={city}
 							wrapperProps={{
@@ -126,6 +132,7 @@ function SideBar({ searchParams, setSearchParams }: { searchParams: URLSearchPar
 						}}>
 						{venues.map((venue) => (
 							<Checkbox
+								key={venue}
 								label={venue}
 								value={venue}
 								wrapperProps={{
@@ -144,6 +151,8 @@ function SideBar({ searchParams, setSearchParams }: { searchParams: URLSearchPar
 					}}>
 					Temizle
 				</Button>
+				<Divider />
+				<DateRange value={dateRange} setValue={setDateRange} />
 			</Stack>
 		</Card>
 	);
