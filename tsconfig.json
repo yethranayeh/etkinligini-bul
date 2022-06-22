@@ -20,7 +20,7 @@
 			"routes/*": ["routes/*"],
 			"utils/*": ["utils/*"],
 			"styles/*": ["styles/*"],
-			"icons/*": ["icons/*"],
+			"icons": ["icons/index.ts"],
 			"api/*": ["api/*"],
 			"types/*": ["types/*"],
 			"context/*": ["context/*"]
