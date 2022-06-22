@@ -1,17 +1,16 @@
 /** @format */
 
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
+import { EventDataContext } from "context/EventDataContext";
 import { useParams } from "react-router-dom";
 import { Text, Title, Stack, Divider } from "@mantine/core";
 import TicketForm from "./TicketForm";
-import { RiErrorWarningLine } from "icons/index";
-import data from "api/data.json";
-import styles from "./Event.module.scss";
 import ImageSlider from "./ImageSlider/ImageSlider";
 import YandexMap from "./YandexMap";
 import { ErrorAlert } from "components/Alerts";
 
 function Event() {
+	const data = useContext(EventDataContext);
 	const { eventId } = useParams();
 	const event = data.find((event) => event._id === eventId);
 

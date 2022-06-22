@@ -1,0 +1,14 @@
+/** @format */
+
+.scrollArea {
+	height: 200px;
+}
+
+.checkboxWrapper {
+	display: flex;
+	width: 100%;
+
+	&:not(:last-child) {
+		margin-bottom: -10px;
+	}
+}

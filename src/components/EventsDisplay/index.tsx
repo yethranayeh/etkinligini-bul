@@ -6,7 +6,7 @@ import { Grid, Tabs } from "@mantine/core";
 import EventCard from "components/EventCard";
 import sortByDate from "utils/sortByDate";
 
-function EventsDisplay({ events }: { events: EventType[] }) {
+function EventsDisplay({ events, smaller }: { events: EventType[]; smaller?: boolean }) {
 	const upcomingEvents = sortByDate(
 		events.filter((event) => new Date(event.date) > new Date()),
 		// sort by ascending because user should see the closest events first
@@ -22,7 +22,13 @@ function EventsDisplay({ events }: { events: EventType[] }) {
 	const isMobile = useMediaQuery("(max-width: 768px)");
 	const isTablet = useMediaQuery("(min-width: 768px) and (max-width: 1024px)");
 	const isDesktop = useMediaQuery("(min-width: 1200px)");
-	const colSpan = isMobile ? 6 : isTablet ? 4 : isDesktop ? 2 : 3;
+
+	let colSpan: number;
+	if (smaller) {
+		colSpan = isMobile ? 12 : isTablet ? 6 : isDesktop ? 4 : 4;
+	} else {
+		colSpan = isMobile ? 6 : isTablet ? 4 : isDesktop ? 2 : 3;
+	}
 
 	return (
 		<Tabs>

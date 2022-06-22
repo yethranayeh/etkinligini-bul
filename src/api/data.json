@@ -1,447 +1,783 @@
 [
   {
-    "_id": "62b1cfac698140bd04f5073d",
+    "_id": "62b23f6660f7bd1cd7e19ee5",
     "pictures": [
-      "https://picsum.photos/id/158/1920/1080"
+      "https://picsum.photos/id/117/1920/1080",
+      "https://picsum.photos/id/209/1920/1080",
+      "https://picsum.photos/id/117/1920/1080"
     ],
-    "date": "2022-06-18T02:46:49",
+    "date": "2022-10-16T12:34:15",
     "city": "İzmir",
-    "location": "Bayraklı",
-    "venue": "ARCTIQ",
-    "address": "ARCTIQ, İzmir/Bayraklı",
-    "category": "Tiyatro",
-    "free": false,
-    "description": "ARCTIQ tarafından İzmir halkına 6/18/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen ARCTIQ izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "ARCTIQ Bayraklı Tiyatro Etkinliği"
+    "location": "Alsancak",
+    "venue": "KEGULAR",
+    "address": "KEGULAR, İzmir/Alsancak",
+    "category": "tiyatro",
+    "free": true,
+    "description": "KEGULAR tarafından İzmir halkına 10/16/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen KEGULAR izleyicileri oyunlarla tekrar buluşturuyor. Etkinlik ücretsizdir.",
+    "name": "KEGULAR Alsancak Tiyatro Etkinliği"
   },
   {
-    "_id": "62b1cfac7c5dc895cb4f5f5d",
+    "_id": "62b23f669ef6cba3faa93b18",
     "pictures": [
-      "https://picsum.photos/id/452/1920/1080",
-      "https://picsum.photos/id/452/1920/1080",
-      "https://picsum.photos/id/452/1920/1080"
+      "https://picsum.photos/id/209/1920/1080",
+      "https://picsum.photos/id/334/1920/1080",
+      "https://picsum.photos/id/209/1920/1080"
     ],
-    "date": "2022-04-25T11:32:09",
+    "date": "2022-01-07T09:13:31",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "SONGLINES",
+    "address": "SONGLINES, İstanbul/Cihangir",
+    "category": "konser",
+    "free": false,
+    "description": "SONGLINES tarafından İstanbul halkına 1/7/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan SONGLINES, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "SONGLINES Cihangir Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f6673fb0f235cc5a19f",
+    "pictures": [
+      "https://picsum.photos/id/209/1920/1080"
+    ],
+    "date": "2022-06-09T02:30:49",
     "city": "İstanbul",
     "location": "Kadıköy",
-    "venue": "MOREGANIC",
-    "address": "MOREGANIC, İstanbul/Kadıköy",
-    "category": "Konser",
+    "venue": "PLASTO",
+    "address": "PLASTO, İstanbul/Kadıköy",
+    "category": "konser",
     "free": false,
-    "description": "MOREGANIC tarafından İstanbul halkına 4/25/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan MOREGANIC, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "MOREGANIC Kadıköy Konser Etkinliği"
+    "description": "PLASTO tarafından İstanbul halkına 6/9/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan PLASTO, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "PLASTO Kadıköy Konser Etkinliği"
   },
   {
-    "_id": "62b1cfac1bb208893e6fe2b5",
+    "_id": "62b23f663fae5bb3092717d7",
     "pictures": [
-      "https://picsum.photos/id/39/1920/1080",
-      "https://picsum.photos/id/39/1920/1080"
+      "https://picsum.photos/id/158/1920/1080",
+      "https://picsum.photos/id/334/1920/1080",
+      "https://picsum.photos/id/453/1920/1080"
     ],
-    "date": "2022-08-24T03:27:01",
+    "date": "2022-03-29T04:22:25",
     "city": "İzmir",
-    "location": "Bayraklı",
-    "venue": "EMPIRICA",
-    "address": "EMPIRICA, İzmir/Bayraklı",
-    "category": "Festival",
-    "free": true,
-    "description": "EMPIRICA tarafından İzmir halkına 8/24/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Bayraklı bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
-    "name": "EMPIRICA Bayraklı Festival Etkinliği"
+    "location": "Alsancak",
+    "venue": "AQUAZURE",
+    "address": "AQUAZURE, İzmir/Alsancak",
+    "category": "festival",
+    "free": false,
+    "description": "AQUAZURE tarafından İzmir halkına 3/29/2022 tarihinde festival etkinliği düzenlenecektir. AQUAZURE yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Alsancak bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "AQUAZURE Alsancak Festival Etkinliği"
   },
   {
-    "_id": "62b1cfac7443291b83040808",
-    "pictures": [],
-    "date": "2022-10-04T08:50:21",
+    "_id": "62b23f66dc133f6c5ea3e8e8",
+    "pictures": [
+      "https://picsum.photos/id/452/1920/1080"
+    ],
+    "date": "2022-12-06T02:35:30",
     "city": "İstanbul",
     "location": "Beşiktaş",
-    "venue": "FLOTONIC",
-    "address": "FLOTONIC, İstanbul/Beşiktaş",
-    "category": "Festival",
-    "free": true,
-    "description": "FLOTONIC tarafından İstanbul halkına 10/4/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Beşiktaş bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
-    "name": "FLOTONIC Beşiktaş Festival Etkinliği"
+    "venue": "GUSHKOOL",
+    "address": "GUSHKOOL, İstanbul/Beşiktaş",
+    "category": "konser",
+    "free": false,
+    "description": "GUSHKOOL tarafından İstanbul halkına 12/6/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan GUSHKOOL, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "GUSHKOOL Beşiktaş Konser Etkinliği"
   },
   {
-    "_id": "62b1cfaccded28d6274b28e4",
+    "_id": "62b23f66af807bbe4a2d3213",
     "pictures": [
+      "https://picsum.photos/id/334/1920/1080",
+      "https://picsum.photos/id/117/1920/1080"
+    ],
+    "date": "2022-04-01T10:56:24",
+    "city": "İzmir",
+    "location": "Güzelbahçe",
+    "venue": "QUONATA",
+    "address": "QUONATA, İzmir/Güzelbahçe",
+    "category": "tiyatro",
+    "free": false,
+    "description": "QUONATA tarafından İzmir halkına 4/1/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen QUONATA izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "QUONATA Güzelbahçe Tiyatro Etkinliği"
+  },
+  {
+    "_id": "62b23f66ab4367a44c66a5a3",
+    "pictures": [
+      "https://picsum.photos/id/334/1920/1080",
+      "https://picsum.photos/id/117/1920/1080",
+      "https://picsum.photos/id/117/1920/1080"
+    ],
+    "date": "2022-08-12T02:28:34",
+    "city": "İstanbul",
+    "location": "Kadıköy",
+    "venue": "GALLAXIA",
+    "address": "GALLAXIA, İstanbul/Kadıköy",
+    "category": "konser",
+    "free": false,
+    "description": "GALLAXIA tarafından İstanbul halkına 8/12/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan GALLAXIA, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "GALLAXIA Kadıköy Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f662d07ff149b475cf6",
+    "pictures": [
+      "https://picsum.photos/id/158/1920/1080",
+      "https://picsum.photos/id/453/1920/1080"
+    ],
+    "date": "2022-09-24T06:44:42",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "MALATHION",
+    "address": "MALATHION, İstanbul/Cihangir",
+    "category": "festival",
+    "free": false,
+    "description": "MALATHION tarafından İstanbul halkına 9/24/2022 tarihinde festival etkinliği düzenlenecektir. MALATHION yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Cihangir bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "MALATHION Cihangir Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f66c5b00008c5f0a6dc",
+    "pictures": [
+      "https://picsum.photos/id/209/1920/1080",
+      "https://picsum.photos/id/39/1920/1080",
+      "https://picsum.photos/id/1082/1920/1080"
+    ],
+    "date": "2022-01-26T01:15:20",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "CEDWARD",
+    "address": "CEDWARD, İstanbul/Cihangir",
+    "category": "konser",
+    "free": true,
+    "description": "CEDWARD tarafından İstanbul halkına 1/26/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan CEDWARD, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Etkinlik ücretsizdir.",
+    "name": "CEDWARD Cihangir Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f665c8ddc62fce3a421",
+    "pictures": [
+      "https://picsum.photos/id/158/1920/1080",
+      "https://picsum.photos/id/117/1920/1080",
+      "https://picsum.photos/id/158/1920/1080"
+    ],
+    "date": "2022-09-20T05:21:13",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "ANOCHA",
+    "address": "ANOCHA, İstanbul/Cihangir",
+    "category": "festival",
+    "free": true,
+    "description": "ANOCHA tarafından İstanbul halkına 9/20/2022 tarihinde festival etkinliği düzenlenecektir. ANOCHA yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Cihangir bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "ANOCHA Cihangir Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f66a4def2b3d21201d4",
+    "pictures": [
+      "https://picsum.photos/id/117/1920/1080"
+    ],
+    "date": "2022-10-31T02:05:27",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "ONTAGENE",
+    "address": "ONTAGENE, İstanbul/Cihangir",
+    "category": "konser",
+    "free": false,
+    "description": "ONTAGENE tarafından İstanbul halkına 10/31/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan ONTAGENE, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "ONTAGENE Cihangir Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f667a804e3efd6d5b8a",
+    "pictures": [
+      "https://picsum.photos/id/452/1920/1080"
+    ],
+    "date": "2022-08-21T12:43:58",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "NORALEX",
+    "address": "NORALEX, İstanbul/Cihangir",
+    "category": "konser",
+    "free": false,
+    "description": "NORALEX tarafından İstanbul halkına 8/21/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan NORALEX, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "NORALEX Cihangir Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f66fded9713b9241a44",
+    "pictures": [],
+    "date": "2022-09-14T05:09:12",
+    "city": "İzmir",
+    "location": "Bayraklı",
+    "venue": "KENEGY",
+    "address": "KENEGY, İzmir/Bayraklı",
+    "category": "konser",
+    "free": false,
+    "description": "KENEGY tarafından İzmir halkına 9/14/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan KENEGY, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "KENEGY Bayraklı Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f66daa491d9a2b37771",
+    "pictures": [
+      "https://picsum.photos/id/39/1920/1080"
+    ],
+    "date": "2022-04-29T07:18:14",
+    "city": "İzmir",
+    "location": "Bayraklı",
+    "venue": "GLUID",
+    "address": "GLUID, İzmir/Bayraklı",
+    "category": "tiyatro",
+    "free": true,
+    "description": "GLUID tarafından İzmir halkına 4/29/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen GLUID izleyicileri oyunlarla tekrar buluşturuyor. Etkinlik ücretsizdir.",
+    "name": "GLUID Bayraklı Tiyatro Etkinliği"
+  },
+  {
+    "_id": "62b23f66b0949db1149ec797",
+    "pictures": [
+      "https://picsum.photos/id/453/1920/1080",
+      "https://picsum.photos/id/117/1920/1080"
+    ],
+    "date": "2022-11-25T06:25:08",
+    "city": "İzmir",
+    "location": "Bayraklı",
+    "venue": "ISOTRACK",
+    "address": "ISOTRACK, İzmir/Bayraklı",
+    "category": "festival",
+    "free": false,
+    "description": "ISOTRACK tarafından İzmir halkına 11/25/2022 tarihinde festival etkinliği düzenlenecektir. ISOTRACK yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Bayraklı bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "ISOTRACK Bayraklı Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f6607b3dc2014003673",
+    "pictures": [
+      "https://picsum.photos/id/453/1920/1080",
+      "https://picsum.photos/id/1082/1920/1080"
+    ],
+    "date": "2022-11-02T09:16:59",
+    "city": "İstanbul",
+    "location": "Beşiktaş",
+    "venue": "ISODRIVE",
+    "address": "ISODRIVE, İstanbul/Beşiktaş",
+    "category": "tiyatro",
+    "free": false,
+    "description": "ISODRIVE tarafından İstanbul halkına 11/2/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen ISODRIVE izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "ISODRIVE Beşiktaş Tiyatro Etkinliği"
+  },
+  {
+    "_id": "62b23f660c0901dc5eb3fcf3",
+    "pictures": [
+      "https://picsum.photos/id/453/1920/1080",
+      "https://picsum.photos/id/39/1920/1080",
       "https://picsum.photos/id/334/1920/1080"
     ],
-    "date": "2022-06-17T09:09:08",
-    "city": "İstanbul",
-    "location": "Cihangir",
-    "venue": "IRACK",
-    "address": "IRACK, İstanbul/Cihangir",
-    "category": "Tiyatro",
+    "date": "2022-07-08T11:54:40",
+    "city": "İzmir",
+    "location": "Bostanlı",
+    "venue": "VIAGRAND",
+    "address": "VIAGRAND, İzmir/Bostanlı",
+    "category": "festival",
     "free": false,
-    "description": "IRACK tarafından İstanbul halkına 6/17/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen IRACK izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "IRACK Cihangir Tiyatro Etkinliği"
+    "description": "VIAGRAND tarafından İzmir halkına 7/8/2022 tarihinde festival etkinliği düzenlenecektir. VIAGRAND yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Bostanlı bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "VIAGRAND Bostanlı Festival Etkinliği"
   },
   {
-    "_id": "62b1cfacb3788d8b70efbcd1",
+    "_id": "62b23f663895fb9d4fc85215",
     "pictures": [
-      "https://picsum.photos/id/158/1920/1080",
-      "https://picsum.photos/id/158/1920/1080",
+      "https://picsum.photos/id/334/1920/1080",
+      "https://picsum.photos/id/117/1920/1080",
       "https://picsum.photos/id/145/1920/1080"
     ],
-    "date": "2022-12-28T08:26:43",
+    "date": "2022-05-13T12:16:20",
     "city": "İzmir",
-    "location": "Güzelbahçe",
-    "venue": "IMAGINART",
-    "address": "IMAGINART, İzmir/Güzelbahçe",
-    "category": "Konser",
-    "free": false,
-    "description": "IMAGINART tarafından İzmir halkına 12/28/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan IMAGINART, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "IMAGINART Güzelbahçe Konser Etkinliği"
-  },
-  {
-    "_id": "62b1cfac3c0412d515e38a04",
-    "pictures": [],
-    "date": "2022-02-01T08:26:48",
-    "city": "İstanbul",
-    "location": "Beşiktaş",
-    "venue": "INSECTUS",
-    "address": "INSECTUS, İstanbul/Beşiktaş",
-    "category": "Festival",
+    "location": "Alsancak",
+    "venue": "PRISMATIC",
+    "address": "PRISMATIC, İzmir/Alsancak",
+    "category": "festival",
     "free": true,
-    "description": "INSECTUS tarafından İstanbul halkına 2/1/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Beşiktaş bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
-    "name": "INSECTUS Beşiktaş Festival Etkinliği"
+    "description": "PRISMATIC tarafından İzmir halkına 5/13/2022 tarihinde festival etkinliği düzenlenecektir. PRISMATIC yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Alsancak bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "PRISMATIC Alsancak Festival Etkinliği"
   },
   {
-    "_id": "62b1cfac7afab4d83c3c5cdb",
-    "pictures": [],
-    "date": "2022-12-11T05:12:30",
-    "city": "İstanbul",
-    "location": "Beşiktaş",
-    "venue": "DELPHIDE",
-    "address": "DELPHIDE, İstanbul/Beşiktaş",
-    "category": "Konser",
-    "free": false,
-    "description": "DELPHIDE tarafından İstanbul halkına 12/11/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan DELPHIDE, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "DELPHIDE Beşiktaş Konser Etkinliği"
-  },
-  {
-    "_id": "62b1cfac2c07d9fcb6701569",
+    "_id": "62b23f66bb6e3ac7792795ec",
     "pictures": [
+      "https://picsum.photos/id/39/1920/1080",
       "https://picsum.photos/id/158/1920/1080",
-      "https://picsum.photos/id/209/1920/1080",
-      "https://picsum.photos/id/158/1920/1080"
-    ],
-    "date": "2022-01-05T02:59:57",
-    "city": "İzmir",
-    "location": "Alsancak",
-    "venue": "KINETICUT",
-    "address": "KINETICUT, İzmir/Alsancak",
-    "category": "Festival",
-    "free": false,
-    "description": "KINETICUT tarafından İzmir halkına 1/5/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Alsancak bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "KINETICUT Alsancak Festival Etkinliği"
-  },
-  {
-    "_id": "62b1cfac349d6791196b1d8c",
-    "pictures": [],
-    "date": "2022-12-13T05:57:23",
-    "city": "İzmir",
-    "location": "Alsancak",
-    "venue": "VIXO",
-    "address": "VIXO, İzmir/Alsancak",
-    "category": "Konser",
-    "free": true,
-    "description": "VIXO tarafından İzmir halkına 12/13/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan VIXO, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Etkinlik ücretsizdir.",
-    "name": "VIXO Alsancak Konser Etkinliği"
-  },
-  {
-    "_id": "62b1cfacbcb74d2e20306509",
-    "pictures": [],
-    "date": "2022-03-01T06:45:18",
-    "city": "İzmir",
-    "location": "Bayraklı",
-    "venue": "EPLOSION",
-    "address": "EPLOSION, İzmir/Bayraklı",
-    "category": "Tiyatro",
-    "free": false,
-    "description": "EPLOSION tarafından İzmir halkına 3/1/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen EPLOSION izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "EPLOSION Bayraklı Tiyatro Etkinliği"
-  },
-  {
-    "_id": "62b1cfacbac4fc588862ef59",
-    "pictures": [
-      "https://picsum.photos/id/209/1920/1080",
-      "https://picsum.photos/id/117/1920/1080",
       "https://picsum.photos/id/39/1920/1080"
     ],
-    "date": "2022-01-13T11:41:49",
-    "city": "İzmir",
-    "location": "Güzelbahçe",
+    "date": "2022-03-16T11:22:33",
+    "city": "İstanbul",
+    "location": "Beşiktaş",
     "venue": "UNQ",
-    "address": "UNQ, İzmir/Güzelbahçe",
-    "category": "Tiyatro",
+    "address": "UNQ, İstanbul/Beşiktaş",
+    "category": "festival",
     "free": false,
-    "description": "UNQ tarafından İzmir halkına 1/13/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen UNQ izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "UNQ Güzelbahçe Tiyatro Etkinliği"
+    "description": "UNQ tarafından İstanbul halkına 3/16/2022 tarihinde festival etkinliği düzenlenecektir. UNQ yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Beşiktaş bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "UNQ Beşiktaş Festival Etkinliği"
   },
   {
-    "_id": "62b1cfac9961978bb2be9d4e",
-    "pictures": [],
-    "date": "2022-02-06T02:11:12",
-    "city": "İzmir",
-    "location": "Alsancak",
-    "venue": "OPPORTECH",
-    "address": "OPPORTECH, İzmir/Alsancak",
-    "category": "Tiyatro",
-    "free": false,
-    "description": "OPPORTECH tarafından İzmir halkına 2/6/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen OPPORTECH izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "OPPORTECH Alsancak Tiyatro Etkinliği"
-  },
-  {
-    "_id": "62b1cfac9c16367f39080914",
-    "pictures": [],
-    "date": "2022-01-08T01:40:47",
-    "city": "İstanbul",
-    "location": "Kadıköy",
-    "venue": "TERASCAPE",
-    "address": "TERASCAPE, İstanbul/Kadıköy",
-    "category": "Festival",
-    "free": true,
-    "description": "TERASCAPE tarafından İstanbul halkına 1/8/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Kadıköy bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
-    "name": "TERASCAPE Kadıköy Festival Etkinliği"
-  },
-  {
-    "_id": "62b1cfac0e2e05f67c4c1cb5",
-    "pictures": [
-      "https://picsum.photos/id/158/1920/1080",
-      "https://picsum.photos/id/158/1920/1080",
-      "https://picsum.photos/id/452/1920/1080"
-    ],
-    "date": "2022-07-17T08:07:14",
-    "city": "İzmir",
-    "location": "Bayraklı",
-    "venue": "GAPTEC",
-    "address": "GAPTEC, İzmir/Bayraklı",
-    "category": "Tiyatro",
-    "free": true,
-    "description": "GAPTEC tarafından İzmir halkına 7/17/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen GAPTEC izleyicileri oyunlarla tekrar buluşturuyor. Etkinlik ücretsizdir.",
-    "name": "GAPTEC Bayraklı Tiyatro Etkinliği"
-  },
-  {
-    "_id": "62b1cfac882164f01afb2feb",
-    "pictures": [],
-    "date": "2022-06-17T10:49:24",
-    "city": "İzmir",
-    "location": "Güzelbahçe",
-    "venue": "NEBULEAN",
-    "address": "NEBULEAN, İzmir/Güzelbahçe",
-    "category": "Festival",
-    "free": true,
-    "description": "NEBULEAN tarafından İzmir halkına 6/17/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Güzelbahçe bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
-    "name": "NEBULEAN Güzelbahçe Festival Etkinliği"
-  },
-  {
-    "_id": "62b1cfac2360726ec1578ae1",
-    "pictures": [],
-    "date": "2022-03-15T01:03:45",
-    "city": "İstanbul",
-    "location": "Cihangir",
-    "venue": "COMBOGEN",
-    "address": "COMBOGEN, İstanbul/Cihangir",
-    "category": "Festival",
-    "free": false,
-    "description": "COMBOGEN tarafından İstanbul halkına 3/15/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Cihangir bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "COMBOGEN Cihangir Festival Etkinliği"
-  },
-  {
-    "_id": "62b1cfac7a4d3d56979cb78a",
+    "_id": "62b23f66c0d4eeb3d0379c9c",
     "pictures": [
       "https://picsum.photos/id/453/1920/1080"
     ],
-    "date": "2022-08-19T03:55:42",
-    "city": "İzmir",
-    "location": "Alsancak",
-    "venue": "SPLINX",
-    "address": "SPLINX, İzmir/Alsancak",
-    "category": "Tiyatro",
-    "free": false,
-    "description": "SPLINX tarafından İzmir halkına 8/19/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen SPLINX izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "SPLINX Alsancak Tiyatro Etkinliği"
-  },
-  {
-    "_id": "62b1cfac196cce97f589a268",
-    "pictures": [
-      "https://picsum.photos/id/39/1920/1080",
-      "https://picsum.photos/id/158/1920/1080"
-    ],
-    "date": "2022-08-19T11:53:23",
+    "date": "2022-07-10T12:17:40",
     "city": "İzmir",
     "location": "Bostanlı",
-    "venue": "MEDMEX",
-    "address": "MEDMEX, İzmir/Bostanlı",
-    "category": "Konser",
+    "venue": "PHUEL",
+    "address": "PHUEL, İzmir/Bostanlı",
+    "category": "festival",
     "free": true,
-    "description": "MEDMEX tarafından İzmir halkına 8/19/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan MEDMEX, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Etkinlik ücretsizdir.",
-    "name": "MEDMEX Bostanlı Konser Etkinliği"
+    "description": "PHUEL tarafından İzmir halkına 7/10/2022 tarihinde festival etkinliği düzenlenecektir. PHUEL yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Bostanlı bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "PHUEL Bostanlı Festival Etkinliği"
   },
   {
-    "_id": "62b1cfac9a1d5018b9a65955",
-    "pictures": [],
-    "date": "2022-11-09T12:51:21",
-    "city": "İstanbul",
-    "location": "Beşiktaş",
-    "venue": "ZENSUS",
-    "address": "ZENSUS, İstanbul/Beşiktaş",
-    "category": "Festival",
+    "_id": "62b23f660310b9ac89a96454",
+    "pictures": [
+      "https://picsum.photos/id/1082/1920/1080"
+    ],
+    "date": "2022-05-20T05:36:51",
+    "city": "İzmir",
+    "location": "Alsancak",
+    "venue": "ZBOO",
+    "address": "ZBOO, İzmir/Alsancak",
+    "category": "festival",
     "free": false,
-    "description": "ZENSUS tarafından İstanbul halkına 11/9/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Beşiktaş bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "ZENSUS Beşiktaş Festival Etkinliği"
+    "description": "ZBOO tarafından İzmir halkına 5/20/2022 tarihinde festival etkinliği düzenlenecektir. ZBOO yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Alsancak bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "ZBOO Alsancak Festival Etkinliği"
   },
   {
-    "_id": "62b1cfacf648576879e262e4",
+    "_id": "62b23f66b017449cb24c3c02",
     "pictures": [
-      "https://picsum.photos/id/158/1920/1080",
-      "https://picsum.photos/id/117/1920/1080"
+      "https://picsum.photos/id/209/1920/1080",
+      "https://picsum.photos/id/453/1920/1080"
     ],
-    "date": "2022-05-18T06:16:51",
-    "city": "İstanbul",
-    "location": "Cihangir",
-    "venue": "EXERTA",
-    "address": "EXERTA, İstanbul/Cihangir",
-    "category": "Tiyatro",
-    "free": true,
-    "description": "EXERTA tarafından İstanbul halkına 5/18/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen EXERTA izleyicileri oyunlarla tekrar buluşturuyor. Etkinlik ücretsizdir.",
-    "name": "EXERTA Cihangir Tiyatro Etkinliği"
+    "date": "2022-12-19T01:00:02",
+    "city": "İzmir",
+    "location": "Alsancak",
+    "venue": "COMBOGEN",
+    "address": "COMBOGEN, İzmir/Alsancak",
+    "category": "festival",
+    "free": false,
+    "description": "COMBOGEN tarafından İzmir halkına 12/19/2022 tarihinde festival etkinliği düzenlenecektir. COMBOGEN yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Alsancak bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "COMBOGEN Alsancak Festival Etkinliği"
   },
   {
-    "_id": "62b1cfacbfe7b12c00b205b4",
+    "_id": "62b23f66e332ed7edcf20fe3",
     "pictures": [
-      "https://picsum.photos/id/145/1920/1080"
+      "https://picsum.photos/id/209/1920/1080"
     ],
-    "date": "2022-09-09T07:37:30",
+    "date": "2022-06-23T03:46:32",
+    "city": "İzmir",
+    "location": "Bostanlı",
+    "venue": "SENSATE",
+    "address": "SENSATE, İzmir/Bostanlı",
+    "category": "konser",
+    "free": false,
+    "description": "SENSATE tarafından İzmir halkına 6/23/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan SENSATE, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "SENSATE Bostanlı Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f666091e13e912e381a",
+    "pictures": [
+      "https://picsum.photos/id/39/1920/1080"
+    ],
+    "date": "2022-07-04T08:32:08",
     "city": "İstanbul",
     "location": "Kadıköy",
-    "venue": "AMTAS",
-    "address": "AMTAS, İstanbul/Kadıköy",
-    "category": "Tiyatro",
-    "free": true,
-    "description": "AMTAS tarafından İstanbul halkına 9/9/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen AMTAS izleyicileri oyunlarla tekrar buluşturuyor. Etkinlik ücretsizdir.",
-    "name": "AMTAS Kadıköy Tiyatro Etkinliği"
+    "venue": "HOTCAKES",
+    "address": "HOTCAKES, İstanbul/Kadıköy",
+    "category": "festival",
+    "free": false,
+    "description": "HOTCAKES tarafından İstanbul halkına 7/4/2022 tarihinde festival etkinliği düzenlenecektir. HOTCAKES yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Kadıköy bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "HOTCAKES Kadıköy Festival Etkinliği"
   },
   {
-    "_id": "62b1cfac1893e27d4becc26b",
+    "_id": "62b23f66e97d2210d824438b",
+    "pictures": [
+      "https://picsum.photos/id/1082/1920/1080",
+      "https://picsum.photos/id/39/1920/1080",
+      "https://picsum.photos/id/39/1920/1080"
+    ],
+    "date": "2022-12-18T07:13:30",
+    "city": "İzmir",
+    "location": "Güzelbahçe",
+    "venue": "BLUEGRAIN",
+    "address": "BLUEGRAIN, İzmir/Güzelbahçe",
+    "category": "festival",
+    "free": false,
+    "description": "BLUEGRAIN tarafından İzmir halkına 12/18/2022 tarihinde festival etkinliği düzenlenecektir. BLUEGRAIN yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Güzelbahçe bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "BLUEGRAIN Güzelbahçe Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f66efafd67262a37ed8",
+    "pictures": [
+      "https://picsum.photos/id/158/1920/1080"
+    ],
+    "date": "2022-09-02T03:42:05",
+    "city": "İstanbul",
+    "location": "Beşiktaş",
+    "venue": "RADIANTIX",
+    "address": "RADIANTIX, İstanbul/Beşiktaş",
+    "category": "tiyatro",
+    "free": false,
+    "description": "RADIANTIX tarafından İstanbul halkına 9/2/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen RADIANTIX izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "RADIANTIX Beşiktaş Tiyatro Etkinliği"
+  },
+  {
+    "_id": "62b23f661df6865dac934721",
+    "pictures": [
+      "https://picsum.photos/id/334/1920/1080",
+      "https://picsum.photos/id/452/1920/1080",
+      "https://picsum.photos/id/334/1920/1080"
+    ],
+    "date": "2022-07-07T02:14:25",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "DYMI",
+    "address": "DYMI, İstanbul/Cihangir",
+    "category": "tiyatro",
+    "free": false,
+    "description": "DYMI tarafından İstanbul halkına 7/7/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen DYMI izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "DYMI Cihangir Tiyatro Etkinliği"
+  },
+  {
+    "_id": "62b23f663a93a7bb05ce7a4c",
+    "pictures": [
+      "https://picsum.photos/id/452/1920/1080",
+      "https://picsum.photos/id/39/1920/1080"
+    ],
+    "date": "2022-06-27T09:39:47",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "ISOTRONIC",
+    "address": "ISOTRONIC, İstanbul/Cihangir",
+    "category": "konser",
+    "free": false,
+    "description": "ISOTRONIC tarafından İstanbul halkına 6/27/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan ISOTRONIC, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "ISOTRONIC Cihangir Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f6668e12b647a01680f",
+    "pictures": [],
+    "date": "2022-10-23T03:42:36",
+    "city": "İstanbul",
+    "location": "Beşiktaş",
+    "venue": "EPLODE",
+    "address": "EPLODE, İstanbul/Beşiktaş",
+    "category": "tiyatro",
+    "free": true,
+    "description": "EPLODE tarafından İstanbul halkına 10/23/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen EPLODE izleyicileri oyunlarla tekrar buluşturuyor. Etkinlik ücretsizdir.",
+    "name": "EPLODE Beşiktaş Tiyatro Etkinliği"
+  },
+  {
+    "_id": "62b23f66b1f809e699136b80",
+    "pictures": [
+      "https://picsum.photos/id/158/1920/1080",
+      "https://picsum.photos/id/453/1920/1080",
+      "https://picsum.photos/id/452/1920/1080"
+    ],
+    "date": "2022-10-30T02:59:24",
+    "city": "İzmir",
+    "location": "Alsancak",
+    "venue": "WRAPTURE",
+    "address": "WRAPTURE, İzmir/Alsancak",
+    "category": "festival",
+    "free": false,
+    "description": "WRAPTURE tarafından İzmir halkına 10/30/2022 tarihinde festival etkinliği düzenlenecektir. WRAPTURE yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Alsancak bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "WRAPTURE Alsancak Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f6604eb2df2ba802ca3",
+    "pictures": [
+      "https://picsum.photos/id/453/1920/1080",
+      "https://picsum.photos/id/1082/1920/1080",
+      "https://picsum.photos/id/452/1920/1080"
+    ],
+    "date": "2022-09-14T12:04:20",
+    "city": "İzmir",
+    "location": "Güzelbahçe",
+    "venue": "GLASSTEP",
+    "address": "GLASSTEP, İzmir/Güzelbahçe",
+    "category": "tiyatro",
+    "free": false,
+    "description": "GLASSTEP tarafından İzmir halkına 9/14/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen GLASSTEP izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "GLASSTEP Güzelbahçe Tiyatro Etkinliği"
+  },
+  {
+    "_id": "62b23f660d79ca9194baa1b8",
+    "pictures": [
+      "https://picsum.photos/id/453/1920/1080",
+      "https://picsum.photos/id/145/1920/1080"
+    ],
+    "date": "2022-08-25T12:44:08",
+    "city": "İzmir",
+    "location": "Güzelbahçe",
+    "venue": "ILLUMITY",
+    "address": "ILLUMITY, İzmir/Güzelbahçe",
+    "category": "festival",
+    "free": true,
+    "description": "ILLUMITY tarafından İzmir halkına 8/25/2022 tarihinde festival etkinliği düzenlenecektir. ILLUMITY yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Güzelbahçe bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "ILLUMITY Güzelbahçe Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f66cb72bd4eb6cb9953",
+    "pictures": [
+      "https://picsum.photos/id/117/1920/1080",
+      "https://picsum.photos/id/209/1920/1080"
+    ],
+    "date": "2022-09-04T04:36:10",
+    "city": "İzmir",
+    "location": "Güzelbahçe",
+    "venue": "SNIPS",
+    "address": "SNIPS, İzmir/Güzelbahçe",
+    "category": "konser",
+    "free": true,
+    "description": "SNIPS tarafından İzmir halkına 9/4/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan SNIPS, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Etkinlik ücretsizdir.",
+    "name": "SNIPS Güzelbahçe Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f66d92f1a5073c6d45f",
+    "pictures": [
+      "https://picsum.photos/id/453/1920/1080"
+    ],
+    "date": "2022-03-28T01:05:09",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "ISBOL",
+    "address": "ISBOL, İstanbul/Cihangir",
+    "category": "festival",
+    "free": false,
+    "description": "ISBOL tarafından İstanbul halkına 3/28/2022 tarihinde festival etkinliği düzenlenecektir. ISBOL yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Cihangir bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "ISBOL Cihangir Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f66cf40908b4694e7cf",
+    "pictures": [],
+    "date": "2022-08-02T10:10:51",
+    "city": "İzmir",
+    "location": "Bayraklı",
+    "venue": "COGNICODE",
+    "address": "COGNICODE, İzmir/Bayraklı",
+    "category": "festival",
+    "free": false,
+    "description": "COGNICODE tarafından İzmir halkına 8/2/2022 tarihinde festival etkinliği düzenlenecektir. COGNICODE yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Bayraklı bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "COGNICODE Bayraklı Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f675a59a01ff4c5961c",
+    "pictures": [],
+    "date": "2022-06-27T10:09:43",
+    "city": "İstanbul",
+    "location": "Kadıköy",
+    "venue": "EXOSPACE",
+    "address": "EXOSPACE, İstanbul/Kadıköy",
+    "category": "konser",
+    "free": true,
+    "description": "EXOSPACE tarafından İstanbul halkına 6/27/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan EXOSPACE, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Etkinlik ücretsizdir.",
+    "name": "EXOSPACE Kadıköy Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f67b99728be43128b44",
+    "pictures": [
+      "https://picsum.photos/id/334/1920/1080",
+      "https://picsum.photos/id/117/1920/1080"
+    ],
+    "date": "2022-12-21T04:58:49",
+    "city": "İstanbul",
+    "location": "Kadıköy",
+    "venue": "ROOFORIA",
+    "address": "ROOFORIA, İstanbul/Kadıköy",
+    "category": "konser",
+    "free": false,
+    "description": "ROOFORIA tarafından İstanbul halkına 12/21/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan ROOFORIA, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "ROOFORIA Kadıköy Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f6792592c33e78875eb",
+    "pictures": [],
+    "date": "2022-01-14T02:37:03",
+    "city": "İzmir",
+    "location": "Bostanlı",
+    "venue": "BEDDER",
+    "address": "BEDDER, İzmir/Bostanlı",
+    "category": "festival",
+    "free": true,
+    "description": "BEDDER tarafından İzmir halkına 1/14/2022 tarihinde festival etkinliği düzenlenecektir. BEDDER yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Bostanlı bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "BEDDER Bostanlı Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f67959765fc329c9c27",
+    "pictures": [
+      "https://picsum.photos/id/39/1920/1080",
+      "https://picsum.photos/id/39/1920/1080"
+    ],
+    "date": "2022-11-26T10:42:33",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "SUPREMIA",
+    "address": "SUPREMIA, İstanbul/Cihangir",
+    "category": "konser",
+    "free": true,
+    "description": "SUPREMIA tarafından İstanbul halkına 11/26/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan SUPREMIA, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Etkinlik ücretsizdir.",
+    "name": "SUPREMIA Cihangir Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f67c10e09cc4decfa19",
     "pictures": [
       "https://picsum.photos/id/334/1920/1080",
       "https://picsum.photos/id/39/1920/1080"
     ],
-    "date": "2022-04-20T03:52:03",
-    "city": "İzmir",
-    "location": "Alsancak",
-    "venue": "PARLEYNET",
-    "address": "PARLEYNET, İzmir/Alsancak",
-    "category": "Konser",
-    "free": true,
-    "description": "PARLEYNET tarafından İzmir halkına 4/20/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan PARLEYNET, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Etkinlik ücretsizdir.",
-    "name": "PARLEYNET Alsancak Konser Etkinliği"
-  },
-  {
-    "_id": "62b1cfac9ddd8db15a28f2ac",
-    "pictures": [
-      "https://picsum.photos/id/158/1920/1080"
-    ],
-    "date": "2022-10-10T03:54:19",
-    "city": "İzmir",
-    "location": "Alsancak",
-    "venue": "ZENSURE",
-    "address": "ZENSURE, İzmir/Alsancak",
-    "category": "Festival",
-    "free": false,
-    "description": "ZENSURE tarafından İzmir halkına 10/10/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Alsancak bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "ZENSURE Alsancak Festival Etkinliği"
-  },
-  {
-    "_id": "62b1cfacdb1d816a8e1c905b",
-    "pictures": [
-      "https://picsum.photos/id/453/1920/1080",
-      "https://picsum.photos/id/1082/1920/1080",
-      "https://picsum.photos/id/209/1920/1080"
-    ],
-    "date": "2022-02-24T05:50:31",
-    "city": "İstanbul",
-    "location": "Kadıköy",
-    "venue": "MEDIOT",
-    "address": "MEDIOT, İstanbul/Kadıköy",
-    "category": "Tiyatro",
-    "free": true,
-    "description": "MEDIOT tarafından İstanbul halkına 2/24/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen MEDIOT izleyicileri oyunlarla tekrar buluşturuyor. Etkinlik ücretsizdir.",
-    "name": "MEDIOT Kadıköy Tiyatro Etkinliği"
-  },
-  {
-    "_id": "62b1cfac9d27de625185031e",
-    "pictures": [],
-    "date": "2022-09-23T05:35:24",
-    "city": "İzmir",
-    "location": "Alsancak",
-    "venue": "MUSIX",
-    "address": "MUSIX, İzmir/Alsancak",
-    "category": "Konser",
-    "free": true,
-    "description": "MUSIX tarafından İzmir halkına 9/23/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan MUSIX, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Etkinlik ücretsizdir.",
-    "name": "MUSIX Alsancak Konser Etkinliği"
-  },
-  {
-    "_id": "62b1cfac8dab11e704e6f056",
-    "pictures": [
-      "https://picsum.photos/id/158/1920/1080",
-      "https://picsum.photos/id/452/1920/1080"
-    ],
-    "date": "2022-11-30T12:16:35",
+    "date": "2022-01-28T06:05:57",
     "city": "İzmir",
     "location": "Güzelbahçe",
-    "venue": "OBONES",
-    "address": "OBONES, İzmir/Güzelbahçe",
-    "category": "Tiyatro",
-    "free": true,
-    "description": "OBONES tarafından İzmir halkına 11/30/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen OBONES izleyicileri oyunlarla tekrar buluşturuyor. Etkinlik ücretsizdir.",
-    "name": "OBONES Güzelbahçe Tiyatro Etkinliği"
+    "venue": "ZYTRAC",
+    "address": "ZYTRAC, İzmir/Güzelbahçe",
+    "category": "tiyatro",
+    "free": false,
+    "description": "ZYTRAC tarafından İzmir halkına 1/28/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen ZYTRAC izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "ZYTRAC Güzelbahçe Tiyatro Etkinliği"
   },
   {
-    "_id": "62b1cfac7842dfc652a86c77",
+    "_id": "62b23f67aa13228ea5c5ccb3",
+    "pictures": [
+      "https://picsum.photos/id/452/1920/1080",
+      "https://picsum.photos/id/1082/1920/1080"
+    ],
+    "date": "2022-12-05T06:05:53",
+    "city": "İzmir",
+    "location": "Bostanlı",
+    "venue": "EXERTA",
+    "address": "EXERTA, İzmir/Bostanlı",
+    "category": "tiyatro",
+    "free": false,
+    "description": "EXERTA tarafından İzmir halkına 12/5/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen EXERTA izleyicileri oyunlarla tekrar buluşturuyor. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "EXERTA Bostanlı Tiyatro Etkinliği"
+  },
+  {
+    "_id": "62b23f67cade923b0c58e35b",
     "pictures": [
       "https://picsum.photos/id/209/1920/1080",
-      "https://picsum.photos/id/117/1920/1080",
-      "https://picsum.photos/id/158/1920/1080"
-    ],
-    "date": "2022-11-10T08:46:26",
-    "city": "İstanbul",
-    "location": "Beşiktaş",
-    "venue": "QUOTEZART",
-    "address": "QUOTEZART, İstanbul/Beşiktaş",
-    "category": "Festival",
-    "free": true,
-    "description": "QUOTEZART tarafından İstanbul halkına 11/10/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Beşiktaş bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
-    "name": "QUOTEZART Beşiktaş Festival Etkinliği"
-  },
-  {
-    "_id": "62b1cfac7fbcedf17cc76e48",
-    "pictures": [],
-    "date": "2022-04-27T03:15:12",
-    "city": "İstanbul",
-    "location": "Beşiktaş",
-    "venue": "NETUR",
-    "address": "NETUR, İstanbul/Beşiktaş",
-    "category": "Konser",
-    "free": false,
-    "description": "NETUR tarafından İstanbul halkına 4/27/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan NETUR, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "NETUR Beşiktaş Konser Etkinliği"
-  },
-  {
-    "_id": "62b1cfacae11c7626f6f88d9",
-    "pictures": [
+      "https://picsum.photos/id/334/1920/1080",
       "https://picsum.photos/id/209/1920/1080"
     ],
-    "date": "2022-07-29T10:20:09",
+    "date": "2022-12-09T04:09:42",
     "city": "İstanbul",
     "location": "Beşiktaş",
-    "venue": "AQUASURE",
-    "address": "AQUASURE, İstanbul/Beşiktaş",
-    "category": "Festival",
+    "venue": "OBONES",
+    "address": "OBONES, İstanbul/Beşiktaş",
+    "category": "festival",
+    "free": true,
+    "description": "OBONES tarafından İstanbul halkına 12/9/2022 tarihinde festival etkinliği düzenlenecektir. OBONES yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Beşiktaş bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "OBONES Beşiktaş Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f675ea1ee25e338a212",
+    "pictures": [
+      "https://picsum.photos/id/145/1920/1080",
+      "https://picsum.photos/id/209/1920/1080",
+      "https://picsum.photos/id/452/1920/1080"
+    ],
+    "date": "2022-12-07T08:02:09",
+    "city": "İzmir",
+    "location": "Güzelbahçe",
+    "venue": "BRISTO",
+    "address": "BRISTO, İzmir/Güzelbahçe",
+    "category": "konser",
+    "free": true,
+    "description": "BRISTO tarafından İzmir halkına 12/7/2022 tarihinde konser etkinliği düzenlenecektir. Rock, Pop, Indie-pop ve Hip-Hop gibi çeşitli mecralardan sanatçıları dinleyicileriyle buluşturan BRISTO, tekrar sizlerle! Daha önce duymadığınz sesleri dinleme fırsatını kaçırmayın. Etkinlik ücretsizdir.",
+    "name": "BRISTO Güzelbahçe Konser Etkinliği"
+  },
+  {
+    "_id": "62b23f67dadadd11625f2f31",
+    "pictures": [],
+    "date": "2022-06-15T11:29:52",
+    "city": "İstanbul",
+    "location": "Cihangir",
+    "venue": "HINWAY",
+    "address": "HINWAY, İstanbul/Cihangir",
+    "category": "festival",
+    "free": true,
+    "description": "HINWAY tarafından İstanbul halkına 6/15/2022 tarihinde festival etkinliği düzenlenecektir. HINWAY yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Cihangir bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "HINWAY Cihangir Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f67ff57195aa170a585",
+    "pictures": [
+      "https://picsum.photos/id/158/1920/1080",
+      "https://picsum.photos/id/39/1920/1080"
+    ],
+    "date": "2022-11-04T10:09:49",
+    "city": "İzmir",
+    "location": "Alsancak",
+    "venue": "ZENTHALL",
+    "address": "ZENTHALL, İzmir/Alsancak",
+    "category": "festival",
+    "free": true,
+    "description": "ZENTHALL tarafından İzmir halkına 11/4/2022 tarihinde festival etkinliği düzenlenecektir. ZENTHALL yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Alsancak bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "ZENTHALL Alsancak Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f6712cfc43cccbab4c3",
+    "pictures": [
+      "https://picsum.photos/id/117/1920/1080",
+      "https://picsum.photos/id/453/1920/1080",
+      "https://picsum.photos/id/453/1920/1080"
+    ],
+    "date": "2022-04-16T11:01:34",
+    "city": "İzmir",
+    "location": "Bostanlı",
+    "venue": "AVIT",
+    "address": "AVIT, İzmir/Bostanlı",
+    "category": "festival",
+    "free": true,
+    "description": "AVIT tarafından İzmir halkına 4/16/2022 tarihinde festival etkinliği düzenlenecektir. AVIT yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Bostanlı bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "AVIT Bostanlı Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f67a47ca5d8d4791a0b",
+    "pictures": [],
+    "date": "2022-03-15T08:14:31",
+    "city": "İzmir",
+    "location": "Bayraklı",
+    "venue": "DIGIFAD",
+    "address": "DIGIFAD, İzmir/Bayraklı",
+    "category": "festival",
     "free": false,
-    "description": "AQUASURE tarafından İstanbul halkına 7/29/2022 tarihinde festival etkinliği düzenlenecektir. undefined yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Beşiktaş bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
-    "name": "AQUASURE Beşiktaş Festival Etkinliği"
+    "description": "DIGIFAD tarafından İzmir halkına 3/15/2022 tarihinde festival etkinliği düzenlenecektir. DIGIFAD yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Bayraklı bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "DIGIFAD Bayraklı Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f6749f9f317ea125340",
+    "pictures": [
+      "https://picsum.photos/id/158/1920/1080",
+      "https://picsum.photos/id/117/1920/1080"
+    ],
+    "date": "2022-08-20T11:00:18",
+    "city": "İstanbul",
+    "location": "Kadıköy",
+    "venue": "OVERPLEX",
+    "address": "OVERPLEX, İstanbul/Kadıköy",
+    "category": "festival",
+    "free": true,
+    "description": "OVERPLEX tarafından İstanbul halkına 8/20/2022 tarihinde festival etkinliği düzenlenecektir. OVERPLEX yeni bir festival etkinliğiyle sizlerle buluşuyor! İstanbul/Kadıköy bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Etkinlik ücretsizdir.",
+    "name": "OVERPLEX Kadıköy Festival Etkinliği"
+  },
+  {
+    "_id": "62b23f677eef7e845170b808",
+    "pictures": [],
+    "date": "2022-10-16T07:21:55",
+    "city": "İstanbul",
+    "location": "Beşiktaş",
+    "venue": "ISOLOGIA",
+    "address": "ISOLOGIA, İstanbul/Beşiktaş",
+    "category": "tiyatro",
+    "free": true,
+    "description": "ISOLOGIA tarafından İstanbul halkına 10/16/2022 tarihinde tiyatro etkinliği düzenlenecektir. Modern ve post-modern akımların doğrultusunda yazılmış yeni ve eski birçok oyunu sergileyen ISOLOGIA izleyicileri oyunlarla tekrar buluşturuyor. Etkinlik ücretsizdir.",
+    "name": "ISOLOGIA Beşiktaş Tiyatro Etkinliği"
+  },
+  {
+    "_id": "62b23f67f728cf4128d9e460",
+    "pictures": [
+      "https://picsum.photos/id/1082/1920/1080",
+      "https://picsum.photos/id/145/1920/1080"
+    ],
+    "date": "2022-11-22T01:01:06",
+    "city": "İzmir",
+    "location": "Bayraklı",
+    "venue": "RECRITUBE",
+    "address": "RECRITUBE, İzmir/Bayraklı",
+    "category": "festival",
+    "free": false,
+    "description": "RECRITUBE tarafından İzmir halkına 11/22/2022 tarihinde festival etkinliği düzenlenecektir. RECRITUBE yeni bir festival etkinliğiyle sizlerle buluşuyor! İzmir/Bayraklı bölgesinde yapılacak olan festivale sizleri de bekliyoruz. Fiyat bilgilerine etkinlik sayfasından ulaşabilirsiniz.",
+    "name": "RECRITUBE Bayraklı Festival Etkinliği"
   }
 ]

@@ -1,0 +1,18 @@
+/** @format */
+
+$col-padding: 8px;
+
+.col {
+	padding: 0;
+}
+
+.colLeft {
+	padding-right: $col-padding;
+	outline: 2px solid red;
+}
+
+.colRight {
+	padding-left: $col-padding;
+	background: red;
+	outline: 2px solid green;
+}
