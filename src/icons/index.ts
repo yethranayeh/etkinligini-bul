@@ -4,6 +4,7 @@ import {
 	BsCardImage,
 	BsCheck2,
 	BsCreditCard2BackFill,
+	BsFillCalendar2WeekFill,
 	BsInfoSquare,
 	BsPeople,
 	BsShieldLock,
@@ -21,6 +22,7 @@ export {
 	BsCardImage, // Image
 	BsCheck2, // Check - Success
 	BsCreditCard2BackFill, // Credit Card - Back
+	BsFillCalendar2WeekFill, // Calendar - Week
 	BsInfoSquare, // Info
 	BsLink45Deg, // Link (chains)
 	BsPeople, // People
