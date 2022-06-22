@@ -3,7 +3,7 @@
 import styles from "./Navbar.module.scss";
 import { Link } from "react-router-dom";
 import { Search } from "components/Search";
-import { Title, Button } from "@mantine/core";
+import { Title, Text, Button } from "@mantine/core";
 
 function Navbar() {
 	const links = ["festival", "konser", "tiyatro"];
@@ -11,7 +11,9 @@ function Navbar() {
 		<nav className={styles.container}>
 			<Link to='/'>
 				<Title order={1} className={styles.title}>
-					Etkinliğini Bul
+					<Text inherit variant='gradient' gradient={{ from: "green", to: "teal", deg: 45 }}>
+						Etkinliğini Bul
+					</Text>
 				</Title>
 			</Link>
 			<Search />
