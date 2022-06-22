@@ -4,9 +4,11 @@ import { useEffect, useState } from "react";
 import { YMaps, Map, ZoomControl, Placemark } from "@pbe/react-yandex-maps";
 import styles from "./YandexMap.module.scss";
 import { ErrorAlert, InfoAlert } from "components/Alerts";
+import { Alert, Loader } from "@mantine/core";
 
 function YandexMap({ loc }: { loc: { city: string; location: string } }) {
 	const [mapData, setMapData] = useState<any>(null);
+	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState<string | null>(null);
 
 	useEffect(() => {
@@ -53,11 +55,12 @@ function YandexMap({ loc }: { loc: { city: string; location: string } }) {
 			<Map
 				state={{
 					center: mapData,
-					zoom: 10,
+					zoom: 12,
 					controls: []
 				}}
 				className={styles.map}
-				onError={(error: any) => setError(error.message ? error.message : JSON.stringify(error))}>
+				onError={(error: any) => setError(error.message ? error.message : JSON.stringify(error))}
+				onLoad={() => setLoading(false)}>
 				<ZoomControl
 					options={{
 						position: {
@@ -69,6 +72,10 @@ function YandexMap({ loc }: { loc: { city: string; location: string } }) {
 				<Placemark geometry={mapData} />
 			</Map>
 		</YMaps>
+	) : loading ? (
+		<Alert variant='outline' icon={<Loader />} title={"Lütfen Bekleyin"}>
+			Harita yükleniyor...
+		</Alert>
 	) : (
 		<InfoAlert text='Harita verilerine erişilemedi' />
 	);
